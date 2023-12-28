@@ -15,7 +15,7 @@ const App = () => {
   return (
     <section className="section-center">
       <h4>Tired of boring lorem Ipsum?</h4>
-      <form action="lorem-form" onSubmit={handleSubmit}>
+      <form className="lorem-form" onSubmit={handleSubmit}>
         <label htmlFor="amount">paragraphs:</label>
         <input
           type="number"

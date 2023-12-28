@@ -277,8 +277,9 @@ ul {
   gap: 0.5rem;
 }
 
-.lorem-form label {
-  font-size: 1.25rem;
+.lorem-form > label {
+  	font-size: 1.25rem;
+	text-transform: capitalize;
 }
 
 .lorem-form input {
